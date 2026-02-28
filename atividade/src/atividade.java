@@ -109,7 +109,25 @@ public class atividade {
 //        }
 
 //        8-
+        String tipoAceito = "G";
+        String tipoAceito2 = "A";
+        Double gasolina = 5.50;
+        Double alcool = 4.00;
 
+        System.out.println("Posto de Combustível:");
+        System.out.print("Qual o tipo do combustível(G para gasolina e A para álcool)? ");
+        String tipo = sc.next();
+
+        System.out.print("Quantos litros deseja? ");
+        int litro = sc.nextInt();
+
+        if (tipo.equals(tipoAceito)){
+            Double multiplicacao = (litro * gasolina);
+            System.out.println("O valor total é R$" +multiplicacao);
+        } else if (tipo.equals(tipoAceito2)){
+            Double multiplicacao2 = (litro * alcool);
+            System.out.println("O valor total é R$" +multiplicacao2);
+        }
 
 
 //        11-
