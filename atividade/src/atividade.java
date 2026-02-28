@@ -1,3 +1,5 @@
+//Dupla: Gabriel Lacerda e Maria Alice Rocha-P2
+
 import java.util.Scanner;
 
 public class atividade {
