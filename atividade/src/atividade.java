@@ -328,18 +328,37 @@ public class atividade {
 //        System.out.println("- Sindicato(5%): R$" +sindicato);
 //        System.out.println("Salário Líquido: R$" +salarioLiquido);
 
-
 //        11-
-//        String menu = """
-//                1 - Cadastrar Peso
-//                2 - Finalizar
-//                """;
-//        System.out.println(menu);
-//        System.out.print("Selecione uma opção: ");
-//        int opcao = sc.nextInt();
+//        String animaisRegistrados = "50 animais registrados";
+//        String maiorPeso = "100 kg";
+//        String menorPeso = "50 kg";
 //
-//        while (opcao == 1){
-//            System.out.print();
+//        int opcao0 = 0;
+//
+//        while (opcao0 != 2) {
+//
+//            String menu = """
+//                    1 - Cadastrar Peso
+//                    2 - Finalizar
+//                    """;
+//            System.out.println(menu);
+//
+//            System.out.print("Selecione uma opção: ");
+//            int opcao = sc.nextInt();
+//
+//            switch (opcao){
+//
+//                case 1:
+//                    System.out.print("Qual o peso do animal? ");
+//                    Double peso = sc.nextDouble();
+//
+//                case 2:
+//                    System.out.print("Quantidade de animais registrados: " +animaisRegistrados);
+//                    System.out.print("Maior peso registrado: " +maiorPeso);
+//                    System.out.print("Menor peso registrado: " +menorPeso);
+//                    System.out.println("Encerrando sistema...");
+//                    break;
+//            }
 //        }
 
 //        12-
@@ -402,6 +421,8 @@ public class atividade {
 //            }
 //        }
 
+//        13-
+//        não conseguimos fazer
 
 
 
