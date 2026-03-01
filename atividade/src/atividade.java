@@ -33,7 +33,7 @@ public class atividade {
 //        System.out.print("Digite outro número: ");
 //        int n2 = sc.nextInt();
 //
-//        System.out.print("Digite uma operção(+,-,/,*)");
+//        System.out.print("Digite uma operção(+,-,/,*): ");
 //        String operacao = sc.next();
 //
 //        switch (operacao){
